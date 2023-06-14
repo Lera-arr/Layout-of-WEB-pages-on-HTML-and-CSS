@@ -1,0 +1,95 @@
+.articl
+{
+    margin-left:35%;
+}
+@font-face {
+	src: url ('font/Bradobrei.ttf');
+	font-family: 'Bradobrei';
+    src: url ('font/dewberry-bold.ttf');
+	font-family: 'dewberry-bold';
+}
+h1{
+font-family: dewberry-bold;
+border: solid  #85838e;
+}
+
+h3{
+    font-family: dewberry-bold;
+    font-weight: 700;
+    font-weight: bolder;
+    border-bottom: solid #dcb79d;
+    padding-bottom: 30px;
+}
+h4{
+    font-family: dewberry-bold;
+    
+}
+.glavnoe{
+margin-left: 100px ;
+text-align: justify;
+font-size: 25px;
+text-indent: 10px;
+font-family: Arial;
+}
+.quote{
+border: 1px solid #85838e;
+font-size: 20px;
+text-indent: 10px;
+font-family: Arial;
+font-style: italic;
+padding: 20px;
+margin: 20px;
+}
+.quote:after{
+    content: close-quote;
+}
+.quote:before{
+    content: open-quote;
+}
+
+.imgarticle{
+    max-width: 20%;
+	border-radius: 200px;
+	cursor: zoom-in;
+	transform: translate(100px,0px); 
+	transition: 2s;
+}
+
+.imgarticle:focus{
+    max-width: 80%;
+    cursor: zoom-out;
+	transform: translate(700px,0px); 
+    pointer-events: none;
+	
+}
+.imgarticle:hover{
+	filter: drop-shadow(70px -40px 80px #dcb79d);
+}
+.kontakt
+{
+text-align:center;
+font-size: 30px;
+text-indent: 10px;
+font-family: dewberry-bold;
+font-style: italic;
+padding: 20px;
+margin: 20px;
+}
+.table, caption{
+text-align: center;
+width: 900px;
+font-family: 'Times New Roman';
+font-size: 30px;
+padding-left: 3%;
+margin: 10px;
+
+}
+td, th{
+    border: 2px solid #dcb79d;
+    filter: drop-shadow(70px 40px 80px #e77e7e);
+    }
+    
+    video
+ {
+    width: 40%;
+ }

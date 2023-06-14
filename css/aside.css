@@ -1,0 +1,30 @@
+@font-face {
+	src: url ('font/Bradobrei.ttf');
+	font-family: 'Bradobrei';
+}
+
+.back {
+    padding: 20px;
+    margin: 1%;
+   
+border-radius: 200px;
+}
+
+h5 {
+    font-family: Bradobrei;
+    font-size: 30px;
+    position: fixed;
+    bottom: 1px;
+    right: 17%;
+    text-align: right;
+    color: #85838e; 
+    border: 2px solid;
+    background-color: #e0c6b4;   
+    border-radius: 200px;
+    margin: 10px -100px 50px 1000px;
+    padding: 10px;
+    transition: 0s;
+}
+ h5:hover{
+	box-shadow: 10px 10px 10px #85838e;
+}
